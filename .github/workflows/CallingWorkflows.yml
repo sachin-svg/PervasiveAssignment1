@@ -1,6 +1,6 @@
 name : Calling already made workflows
 on: 
-  pull_request: #for now, need to check another event or something else like that
+  pull_request: #for now, need to check another event or something else like that later
     types: reopened
 jobs:
   call-pr-checker:
